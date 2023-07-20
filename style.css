@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+
+head,body{
+    background:linear-gradient(90deg,rgba(255, 0, 0, 0.5), lightgray,rgba(0, 0, 255, 0.534), rgba(255, 99, 71, 0.459));
+}
+main{
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+width: 100vw;
+
+
+
+
+
+}
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    padding: 50px;
+    margin-top:30px 
+    
+}
+img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+
+    
+}
+#turnon {
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 1em;
+   box-shadow: 1px 1px black;
+   border-radius: 2px;
+   cursor: pointer;
+
+
+}
+#turnoff {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:1em ;
+    box-shadow: 1px 1px black;
+    border-radius: 2px;
+    cursor:pointer;
+   
+}
+#turnon:hover {
+    background-color: springgreen;
+}
+#turnoff:hover {
+    background-color: springgreen;
+}
